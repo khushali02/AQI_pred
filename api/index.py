@@ -10,4 +10,4 @@ def home():
 def about():
     return 'About'
 
-app.run(debug=True)
+# app.run(debug=True)
