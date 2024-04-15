@@ -74,5 +74,5 @@ def predict_aqi():
     # Return the predicted AQI values as JSON
     return jsonify({"predicted_values": (predicted_aqi)})
 
-if __name__ == '__main__':
-    app.run(debug=True)
+# if __name__ == '__main__':
+#     app.run(debug=True)
